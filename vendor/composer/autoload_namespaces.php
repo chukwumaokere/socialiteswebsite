@@ -8,4 +8,5 @@ $baseDir = dirname($vendorDir);
 return array(
     'stringEncode' => array($vendorDir . '/paquettg/string-encode/src'),
     'PHPHtmlParser' => array($vendorDir . '/paquettg/php-html-parser/src'),
+    'Mailgun' => array($vendorDir . '/mailgun/mailgun-php/src'),
 );
