@@ -142,6 +142,7 @@
 		}
 		.form-control{
 			width: 50%;
+			padding: 8px 12px;
 		}
 		.btn-primary{
 			background-color: #e52f37;
@@ -186,6 +187,21 @@
                         color: #777777;
                         text-decoration: none;
                 }
+		@media screen and (min-width: 451px) {
+			.form-control{
+				border-top-right-radius: 0;
+				border-bottom-right-radius: 0;
+				height: 54px;
+			}
+			.btn{
+				margin-left:0;
+				border-bottom-left-radius: 0;
+				border-top-left-radius: 0;
+				padding: .375rem 25px;
+				font-size: 18px;
+			}
+
+		}
                 @media screen and (max-width: 1600px) {
                         .main-footer{
                                 padding-bottom: 5%;
