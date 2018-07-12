@@ -349,7 +349,18 @@
 			.main-footer > h4{
 				font-size: 1em;
 			}
-			img{
-				max-width: 70% !important;
+			h1 {
+				font-size: 1.7em;
 			}
+			h2{
+				font-size: 1.3em;
+			}
+			img{
+				max-width: 50% !important;
+				margin-left: 5%;
+			}
+			.main-content-right{
+				margin-left: -15%;
+			}
+		
 		}
