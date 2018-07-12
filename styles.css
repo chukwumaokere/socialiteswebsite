@@ -341,3 +341,15 @@
 				margin-bottom: 7%;
 			}
 		}
+		@media screen and (max-height: 450px){
+			.main-footer{
+				margin-bottom: 3%;
+				padding-left: 34%;
+			}
+			.main-footer > h4{
+				font-size: 1em;
+			}
+			img{
+				max-width: 70% !important;
+			}
+		}
