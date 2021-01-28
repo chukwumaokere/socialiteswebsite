@@ -10,6 +10,7 @@ $htmlContent = file_get_contents("../assets/emailtemplate.html");
 if($email_address){
         $useradded = addUser($email_address);
         if($useradded == 1){
+                /*
                $result = $mgClient->sendMessage($domain,
                     array('from'    => 'Socialites Information <info@socialites.app>',
                             'to'      => "$email_address",
@@ -17,6 +18,7 @@ if($email_address){
                             'html' => $htmlContent,
                         )
                 );
+                */
 		
                 header('Location: /thanks');
         }else{
